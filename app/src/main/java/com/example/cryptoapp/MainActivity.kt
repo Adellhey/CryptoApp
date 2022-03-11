@@ -17,8 +17,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         viewModel = ViewModelProviders.of(this)[CoinViewModel::class.java]
-        viewModel.loadData()
-        viewModel.priceList.observe(this, Observer {
+
+//        viewModel.priceList.observe(this, Observer {
+//            Log.d("TEST", "Success in activity: $it")
+//        })
+
+        viewModel.getDetailInfo("BTC").observe(this, Observer {
             Log.d("TEST", "Success in activity: $it")
         })
 

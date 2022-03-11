@@ -27,7 +27,7 @@ interface ApiService {
         private const val QUERY_PARAM_LIMIT ="limit"
         private const val QUERY_PARAM_TO_SYMBOL ="tsym"
         private const val QUERY_PARAM_TO_SYMBOLS ="tsyms"
-        private const val QUERY_PARAM_FROM_SYMBOLS ="ftsyms"
+        private const val QUERY_PARAM_FROM_SYMBOLS ="fsyms"
 
         private const val CURRENCY = "USD"
     }

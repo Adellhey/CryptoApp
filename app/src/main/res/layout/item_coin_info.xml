@@ -19,7 +19,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:src="@mipmap/ic_launcher"/>
-<!--            android:contentDescription="@string/label_of_crypto" />-->
+
 
         <TextView
             android:id="@+id/tvSymbols"

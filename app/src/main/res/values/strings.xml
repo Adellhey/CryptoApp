@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">CryptoApp</string>
-    <string name="symbols_template">%s / $s</string>
+    <string name="symbols_template">%s / %s</string>
     <string name="last_update_template">Время последнего обновления: %s</string>
+    <string name="label_of_crypto">Label of crypto</string>
+    <string name="tv_slash">/</string>
+    <string name="tv_btc">BTC</string>
+    <string name="tv_usd">USD</string>
+    <string name="price_label">Цена:</string>
+    <string name="tv_price">7352.2</string>
+    <string name="tv_min_price_label">Минимум за день:</string>
+    <string name="tv_max_price_label">Максимум за день:</string>
+    <string name="tv_min_price">7110.0</string>
+    <string name="tv_max_price">7891.0</string>
+    <string name="tv_last_deal_label">Последняя сделка:</string>
+    <string name="tv_last_deal">Bitfinex</string>
+    <string name="last_update_label">Обновлено</string>
+    <string name="last_update">18:42:56</string>
 </resources>
